@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/* La feuille de style est encodée en UTF-8 */
+
+
+/*********************************************/
+
+
+/* Fichier : style_projet.css                */
+
+
+/* Type : Document CSS                       */
+
+
+/* Titre : Feuille de style du projet        */
+
+
+/* Auteur : Arthur Andrianjafisolo           */
+
+
+/* Date de création : 23 novembre 2021       */
+
+
+/*********************************************/
+
+
+/*Paramètre généraux*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+main {
+    background-color: lightcyan;
+    width: 1000px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*En tête*/
+
+header {
+    /*display: flex;*/
+    align-items: center;
+}
+
+header img {
+    /*position: relative;*/
+    left: -35px;
+}
+
+/* ajuoter pour Claudio */
+div img {
+    width: 80px;
+}
+
+
+
+
+/*Navigateur*/
+
+
+
+div nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+div nav a {
+    border: 1px solid black;
+    background-color: #243E16;
+    color: #F6CB21;
+    text-decoration: none;
+    padding: 12px 25px;
+    width: 100px;
+    height: 41px;
+    margin: 8px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+footer {
+    background-color: chocolate;
+    margin-top: 2em;
+    padding: 10px;
+}
+/* A propos de nous */
+#fondateurs aside {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0px 5px;
+    padding: 5px;
+    width: 25%;
+}
